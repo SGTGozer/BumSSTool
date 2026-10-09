@@ -1,0 +1,767 @@
+{
+  "SchemaVersion": 1,
+  "Reference": {
+    "Url": "https://github.com/cheesecatlol/CheesySSTool",
+    "Commit": "0c42549922f827d22da5284fa169c34bbccf3040",
+    "CatalogEntries": 77
+  },
+  "Tools": [
+    {
+      "Id": "prefetchview",
+      "Name": "PrefetchView",
+      "Description": "Inspect application launch data stored in Windows Prefetch.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/PrefetchView/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/PrefetchView",
+      "LaunchPattern": "^pv\\+\\+\\.exe$",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "bamreveal",
+      "Name": "BAMReveal",
+      "Description": "Review execution records in the Background Activity Moderator registry.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/BAMReveal/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/BAMReveal",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "stringsparser",
+      "Name": "StringsParser",
+      "Description": "Inspect extracted strings with patterns, signatures and YARA rules.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/StringsParser/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/StringsParser"
+    },
+    {
+      "Id": "fileless",
+      "Name": "Fileless",
+      "Description": "Review evidence associated with fileless execution.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/Fileless/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/Fileless",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "dps-analyzer",
+      "Name": "DPS-Analyzer",
+      "Description": "Inspect Diagnostic Policy Service memory artefacts.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/DPS-Analyzer/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/DPS-Analyzer",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "userassistview",
+      "Name": "UserAssistView",
+      "Description": "Review UserAssist application usage records.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/UserAssistView/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/UserAssistView"
+    },
+    {
+      "Id": "journalparser",
+      "Name": "JournalParser",
+      "Description": "Read file change records from an NTFS USN journal.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/JournalParser/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/JournalParser",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "injgen",
+      "Name": "InjGen",
+      "Description": "Investigate JNI and JVMTI injection indicators.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/InjGen/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/InjGen",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "usbdetector",
+      "Name": "USBDetector",
+      "Description": "Inspect records of USB device connections.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/USBDetector/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/USBDetector"
+    },
+    {
+      "Id": "pftrace",
+      "Name": "PFTrace",
+      "Description": "Review Prefetch traces associated with Windows loader utilities.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/PFTrace/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/PFTrace"
+    },
+    {
+      "Id": "checkdeletedusn",
+      "Name": "CheckDeletedUSN",
+      "Description": "Inspect USN journal timing against the Windows boot time.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/CheckDeletedUSN/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/CheckDeletedUSN"
+    },
+    {
+      "Id": "jarparser",
+      "Name": "JARParser",
+      "Description": "Review Java archive execution artefacts.",
+      "Category": "Orbdiff",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Orbdiff/JARParser/releases/latest",
+      "SourceUrl": "https://github.com/Orbdiff/JARParser"
+    },
+    {
+      "Id": "bam-parser",
+      "Name": "BAM-parser",
+      "Description": "Read application execution records from BAM.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/BAM-parser/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/BAM-parser",
+      "AssetPattern": "^BAMParser\\.exe$",
+      "LaunchPattern": "^BAMParser\\.exe$",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "pathsparser",
+      "Name": "PathsParser",
+      "Description": "Review executable paths found in execution artefacts.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/PathsParser/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/PathsParser"
+    },
+    {
+      "Id": "journaltrace",
+      "Name": "JournalTrace",
+      "Description": "Investigate file activity recorded in the USN journal.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/JournalTrace/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/JournalTrace",
+      "AssetPattern": "^JournalTrace\\.exe$",
+      "LaunchPattern": "^JournalTrace\\.exe$",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "kernellivedumptool",
+      "Name": "KernelLiveDumpTool",
+      "Description": "Create a live kernel dump for manual investigation.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/KernelLiveDumpTool/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/KernelLiveDumpTool",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "bamdeletedkeys",
+      "Name": "BamDeletedKeys",
+      "Description": "Investigate deleted BAM registry entries.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/BamDeletedKeys/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/BamDeletedKeys",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "espouken-tool",
+      "Name": "Espouken Tool",
+      "Description": "Open the Espouken screenshare investigation toolkit.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/Tool/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/Tool",
+      "AssetPattern": "^espouken\\.exe$",
+      "LaunchPattern": "^espouken\\.exe$",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "pcasvc-executed",
+      "Name": "pcasvc-executed",
+      "Description": "Review Program Compatibility Assistant execution records.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/pcasvc-executed/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/pcasvc-executed",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "process-parser",
+      "Name": "process-parser",
+      "Description": "Inspect process execution evidence.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/process-parser/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/process-parser",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "prefetch-parser",
+      "Name": "prefetch-parser",
+      "Description": "Read and inspect Prefetch execution records.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/prefetch-parser/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/prefetch-parser",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "activitiescache",
+      "Name": "ActivitiesCache",
+      "Description": "Review application history in ActivitiesCache.",
+      "Category": "Spokwn",
+      "Kind": "GitHub",
+      "Url": "https://github.com/spokwn/ActivitiesCache-execution/releases/latest",
+      "SourceUrl": "https://github.com/spokwn/ActivitiesCache-execution"
+    },
+    {
+      "Id": "meowdoomsdayfucker",
+      "Name": "MeowDoomsdayFucker",
+      "Description": "Check for indicators associated with the Doomsday client.",
+      "Category": "Tonynoh",
+      "Kind": "GitHub",
+      "Url": "https://github.com/MeowTonynoh/MeowDoomsdayFucker/releases/latest",
+      "SourceUrl": "https://github.com/MeowTonynoh/MeowDoomsdayFucker"
+    },
+    {
+      "Id": "meowmodanalyzer",
+      "Name": "MeowModAnalyzer",
+      "Description": "Inspect Minecraft mod archives for suspicious indicators.",
+      "Category": "Tonynoh",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/MeowTonynoh/MeowModAnalyzer/main/MeowModAnalyzer.ps1",
+      "SourceUrl": "https://github.com/MeowTonynoh/MeowModAnalyzer"
+    },
+    {
+      "Id": "meowresolver",
+      "Name": "MeowResolver",
+      "Description": "Review strings and obfuscation in executable files.",
+      "Category": "Tonynoh",
+      "Kind": "GitHub",
+      "Url": "https://github.com/MeowTonynoh/MeowResolver/releases/latest",
+      "SourceUrl": "https://github.com/MeowTonynoh/MeowResolver",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "meownovowarefucker",
+      "Name": "MeowNovowareFucker",
+      "Description": "Check for indicators associated with Novoware.",
+      "Category": "Tonynoh",
+      "Kind": "GitHub",
+      "Url": "https://github.com/MeowTonynoh/MeowNovowareFucker/releases/latest",
+      "SourceUrl": "https://github.com/MeowTonynoh/MeowNovowareFucker"
+    },
+    {
+      "Id": "meowimportschecker",
+      "Name": "MeowImportsChecker",
+      "Description": "Inspect imported functions and libraries in PE files.",
+      "Category": "Tonynoh",
+      "Kind": "GitHub",
+      "Url": "https://github.com/MeowTonynoh/MeowImportsChecker/releases/latest",
+      "SourceUrl": "https://github.com/MeowTonynoh/MeowImportsChecker"
+    },
+    {
+      "Id": "meowclientsfucker",
+      "Name": "MeowClientsFucker",
+      "Description": "Review indicators associated with known cheat clients.",
+      "Category": "Tonynoh",
+      "Kind": "GitHub",
+      "Url": "https://github.com/MeowTonynoh/MeowClientFucker/releases/latest",
+      "SourceUrl": "https://github.com/MeowTonynoh/MeowClientFucker"
+    },
+    {
+      "Id": "pshunter",
+      "Name": "PSHunter",
+      "Description": "Investigate PowerShell execution artefacts.",
+      "Category": "Praiselily",
+      "Kind": "GitHub",
+      "Url": "https://github.com/praiselily/PSHunter/releases/latest",
+      "SourceUrl": "https://github.com/praiselily/PSHunter",
+      "UnavailableAtBuild": true,
+      "Notes": "The original author repository returned HTTP 404 when this package was prepared. This entry is kept for catalog completeness. Download retries the original source in case it is restored; no substitute is presented as the original tool."
+    },
+    {
+      "Id": "altdetector",
+      "Name": "AltDetector",
+      "Description": "Review locally available alternate account indicators.",
+      "Category": "Praiselily",
+      "Kind": "GitHub",
+      "Url": "https://github.com/praiselily/AltDetector/releases/latest",
+      "SourceUrl": "https://github.com/praiselily/AltDetector",
+      "UnavailableAtBuild": true,
+      "Notes": "The original author repository returned HTTP 404 when this package was prepared. This entry is kept for catalog completeness. Download retries the original source in case it is restored; no substitute is presented as the original tool."
+    },
+    {
+      "Id": "wehatefakers",
+      "Name": "WeHateFakers",
+      "Description": "Inspect hotspot and tethering activity records.",
+      "Category": "Praiselily",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/praiselily/WeHateFakers/refs/heads/main/HotspotLogs.ps1",
+      "SourceUrl": "https://github.com/praiselily/WeHateFakers",
+      "UnavailableAtBuild": true,
+      "Notes": "The original author repository returned HTTP 404 when this package was prepared. This entry is kept for catalog completeness. Download retries the original source in case it is restored; no substitute is presented as the original tool."
+    },
+    {
+      "Id": "commondirectories",
+      "Name": "CommonDirectories",
+      "Description": "List files in locations commonly reviewed during a screenshare.",
+      "Category": "Praiselily",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/CommonDirectories.ps1",
+      "SourceUrl": "https://github.com/praiselily/lilith-ps"
+    },
+    {
+      "Id": "harddiskconverter",
+      "Name": "HarddiskConverter",
+      "Description": "Translate Windows disk device names into drive identifiers.",
+      "Category": "Praiselily",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/HarddiskConverter.ps1",
+      "SourceUrl": "https://github.com/praiselily/lilith-ps"
+    },
+    {
+      "Id": "services",
+      "Name": "Services",
+      "Description": "Inspect Windows services and associated executable information.",
+      "Category": "Praiselily",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1",
+      "SourceUrl": "https://github.com/praiselily/lilith-ps"
+    },
+    {
+      "Id": "signedscheduledtasks",
+      "Name": "SignedScheduledTasks",
+      "Description": "Review task executables and signature information.",
+      "Category": "Praiselily",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/praiselily/lilith-ps/main/Signed-Scheduled-Tasks",
+      "SourceUrl": "https://github.com/praiselily/lilith-ps",
+      "Notes": "The official script has no .ps1 extension online. bumsstool saves it as a .ps1 file for launching."
+    },
+    {
+      "Id": "rl-modanalyzer",
+      "Name": "RL ModAnalyzer",
+      "Description": "Review Minecraft mod files with RedLotus Mod Analyzer.",
+      "Category": "RedLotus",
+      "Kind": "GitHub",
+      "Url": "https://github.com/ItzIceHere/RedLotus-Mod-Analyzer/releases/latest",
+      "SourceUrl": "https://github.com/ItzIceHere/RedLotus-Mod-Analyzer"
+    },
+    {
+      "Id": "rl-tasksentinel",
+      "Name": "RL TaskSentinel",
+      "Description": "Inspect Windows scheduled tasks with Task Sentinel.",
+      "Category": "RedLotus",
+      "Kind": "GitHub",
+      "Url": "https://github.com/ItzIceHere/RedLotus-Task-Sentinel/releases/latest",
+      "SourceUrl": "https://github.com/ItzIceHere/RedLotus-Task-Sentinel"
+    },
+    {
+      "Id": "rl-altchecker",
+      "Name": "RL AltChecker",
+      "Description": "Review local account indicators with RedLotus Alt Checker.",
+      "Category": "RedLotus",
+      "Kind": "GitHub",
+      "Url": "https://github.com/ItzIceHere/RedLotusAltChecker/releases/latest",
+      "SourceUrl": "https://github.com/ItzIceHere/RedLotusAltChecker"
+    },
+    {
+      "Id": "computeractivityview",
+      "Name": "ComputerActivityView",
+      "Description": "Build a local timeline of computer activity.",
+      "Category": "Others",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/lastactivityview.zip",
+      "SourceUrl": "https://www.nirsoft.net/utils/computer_activity_view.html",
+      "Notes": "The upstream catalog name is retained. NirSoft calls the application on this official page LastActivityView."
+    },
+    {
+      "Id": "amcacheparser",
+      "Name": "AmcacheParser",
+      "Description": "Extract execution and file information from Amcache.",
+      "Category": "Others",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/AmcacheParser.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "systeminformer",
+      "Name": "SystemInformer",
+      "Description": "Inspect running processes, modules, services and system activity.",
+      "Category": "Others",
+      "Kind": "Website",
+      "Url": "https://www.systeminformer.com/canary",
+      "SourceUrl": "https://www.systeminformer.com/canary"
+    },
+    {
+      "Id": "die-engine",
+      "Name": "DIE-engine",
+      "Description": "Inspect executable formats, compilers and packers with Detect It Easy.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/horsicq/Detect-It-Easy/releases/latest",
+      "SourceUrl": "https://github.com/horsicq/Detect-It-Easy",
+      "Notes": "CheesySSTool links to the DIE engine library. This entry downloads the Detect It Easy Windows application, which uses that engine.",
+      "AssetPattern": "^die_win64_portable_.*_x64\\.zip$",
+      "LaunchPattern": "^die\\.exe$"
+    },
+    {
+      "Id": "dqrkis-fucker",
+      "Name": "DQRKIS-FUCKER",
+      "Description": "Review indicators associated with DQRKIS.",
+      "Category": "Others",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/cheesecatlol/DQRKIS-FUCKER/refs/heads/main/DqrkisFucker.ps1",
+      "SourceUrl": "https://github.com/cheesecatlol/DQRKIS-FUCKER"
+    },
+    {
+      "Id": "macrodetector",
+      "Name": "MacroDetector",
+      "Description": "Inspect traces associated with macro and autoclicker applications.",
+      "Category": "Others",
+      "Kind": "Script",
+      "Url": "https://raw.githubusercontent.com/NiccBlahh/MacroDetector/refs/heads/main/MacroDetector.ps1",
+      "SourceUrl": "https://github.com/NiccBlahh/MacroDetector",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "jarabel",
+      "Name": "Jarabel",
+      "Description": "Find and inspect Java archive files.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/nay-cat/Jarabel/releases/latest",
+      "SourceUrl": "https://github.com/nay-cat/Jarabel"
+    },
+    {
+      "Id": "luyten",
+      "Name": "Luyten",
+      "Description": "Browse decompiled Java classes in a graphical interface.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/deathmarine/Luyten/releases/latest",
+      "SourceUrl": "https://github.com/deathmarine/Luyten",
+      "AssetPattern": "^luyten-.*\\.jar$",
+      "LaunchPattern": "^luyten-.*\\.jar$",
+      "RequireLaunchPattern": true,
+      "RequiresJava": true,
+      "Notes": "Runs the official JAR with Java. A private Temurin Java runtime is downloaded automatically if Java is missing."
+    },
+    {
+      "Id": "vmaware",
+      "Name": "VMAware",
+      "Description": "Inspect indicators of a virtual machine environment.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/kernelwernel/VMAware/releases/latest",
+      "SourceUrl": "https://github.com/kernelwernel/VMAware",
+      "AssetPattern": "^vmaware\\.exe$"
+    },
+    {
+      "Id": "velociraptor",
+      "Name": "Velociraptor",
+      "Description": "Open the Velociraptor digital forensics toolkit.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Velocidex/velociraptor/releases/latest",
+      "SourceUrl": "https://github.com/Velocidex/velociraptor",
+      "AssetPattern": "windows-amd64\\.exe\\.gz$",
+      "DefaultArguments": "gui",
+      "KeepConsole": true,
+      "Notes": "Opens the local GUI with the publisher-documented gui command. Custom arguments in tool options replace this default."
+    },
+    {
+      "Id": "ntfs-parser",
+      "Name": "NTFS Parser",
+      "Description": "Inspect NTFS metadata and filesystem structures.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/thewhiteninja/ntfstool/releases/latest",
+      "SourceUrl": "https://github.com/thewhiteninja/ntfstool",
+      "AssetPattern": "^ntfstool\\.x64\\.exe$",
+      "LaunchPattern": "^ntfstool\\.x64\\.exe$",
+      "RequiresAdmin": true
+    },
+    {
+      "Id": "hayabusa",
+      "Name": "Hayabusa",
+      "Description": "Generate investigation timelines from Windows event logs.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/Yamato-Security/hayabusa/releases/latest",
+      "SourceUrl": "https://github.com/Yamato-Security/hayabusa"
+    },
+    {
+      "Id": "everything",
+      "Name": "Everything",
+      "Description": "Search indexed filenames on a Windows computer.",
+      "Category": "Others",
+      "Kind": "Website",
+      "Url": "https://www.voidtools.com/downloads/",
+      "SourceUrl": "https://www.voidtools.com/downloads/"
+    },
+    {
+      "Id": "hxd",
+      "Name": "HxD",
+      "Description": "Inspect hexadecimal file contents and other binary data.",
+      "Category": "Others",
+      "Kind": "Website",
+      "Url": "https://mh-nexus.de/en/hxd/",
+      "SourceUrl": "https://mh-nexus.de/en/hxd/"
+    },
+    {
+      "Id": "bstrings",
+      "Name": "bstrings",
+      "Description": "Extract and search printable strings in files.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/bstrings.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "jlecmd",
+      "Name": "JLECmd",
+      "Description": "Extract records from Windows Jump List files.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/JLECmd.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "jumplistexplorer",
+      "Name": "JumpListExplorer",
+      "Description": "Browse Windows Jump Lists in a graphical interface.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "mftecmd",
+      "Name": "MFTECmd",
+      "Description": "Parse NTFS metadata, including MFT and USN records.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/MFTECmd.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "pecmd",
+      "Name": "PECmd",
+      "Description": "Extract information from Windows Prefetch files.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/PECmd.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "recentfilecacheparser",
+      "Name": "RecentFileCacheParser",
+      "Description": "Read records in a RecentFileCache database.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/RecentFileCacheParser.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "registryexplorer",
+      "Name": "RegistryExplorer",
+      "Description": "Browse Windows registry hive files.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "shellbagsexplorer",
+      "Name": "ShellBagsExplorer",
+      "Description": "Inspect folder navigation artefacts in ShellBags.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/ShellBagsExplorer.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "srumecmd",
+      "Name": "SrumECmd",
+      "Description": "Extract application usage records from SRUM.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/SrumECmd.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "timelineexplorer",
+      "Name": "TimelineExplorer",
+      "Description": "Browse CSV and investigation timeline files.",
+      "Category": "Zimmerman",
+      "Kind": "Direct",
+      "Url": "https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip",
+      "SourceUrl": "https://ericzimmerman.github.io/"
+    },
+    {
+      "Id": "fulleventlogview",
+      "Name": "FullEventLogView",
+      "Description": "Browse Windows event log entries.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/fulleventlogview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "networkusageview",
+      "Name": "NetworkUsageView",
+      "Description": "Inspect locally recorded application network usage.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/networkusageview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "browserdownloadsview",
+      "Name": "BrowserDownloadsView",
+      "Description": "Review download records from supported browsers.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/browserdownloadsview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "alternatestreamview",
+      "Name": "AlternateStreamView",
+      "Description": "Inspect NTFS alternate data streams.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/alternatestreamview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "usbdeview",
+      "Name": "USBDeview",
+      "Description": "Browse current and previously connected USB devices.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/usbdeview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "opensavefilesview",
+      "Name": "OpenSaveFilesView",
+      "Description": "Review files referenced by Windows open and save dialogs.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/opensavefilesview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "executedprogramslist",
+      "Name": "ExecutedProgramsList",
+      "Description": "Review application execution records from local artefacts.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/executedprogramslist.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "taskschedulerview",
+      "Name": "TaskSchedulerView",
+      "Description": "Browse Windows scheduled tasks and their run information.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/taskschedulerview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "jumplistsview",
+      "Name": "JumpListsView",
+      "Description": "Review recent and frequent items in Windows Jump Lists.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/jumplistsview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "winprefetchview",
+      "Name": "WinPrefetchView",
+      "Description": "Browse application information in Windows Prefetch files.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/winprefetchview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "regscanner",
+      "Name": "RegScanner",
+      "Description": "Search Windows registry keys and values.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/regscanner.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "shellbagsview",
+      "Name": "ShellBagsView",
+      "Description": "Browse recorded folder navigation activity.",
+      "Category": "NirSoft",
+      "Kind": "Direct",
+      "Url": "https://www.nirsoft.net/utils/shellbagsview.zip",
+      "SourceUrl": "https://www.nirsoft.net/"
+    },
+    {
+      "Id": "net-9-0",
+      "Name": "NET 9.0",
+      "Description": "Install the Microsoft .NET 9 SDK required by some tools.",
+      "Category": "Dependencies",
+      "Kind": "DotNet",
+      "Url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/9.0/releases.json",
+      "SourceUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/9.0",
+      "Product": "sdk",
+      "Notes": "Download is resolved from Microsoft release metadata so it follows the current servicing release."
+    },
+    {
+      "Id": "net-10-0",
+      "Name": "NET 10.0",
+      "Description": "Install the Microsoft .NET 10 Desktop Runtime required by some tools.",
+      "Category": "Dependencies",
+      "Kind": "DotNet",
+      "Url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/10.0/releases.json",
+      "SourceUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/10.0",
+      "Product": "windowsdesktop",
+      "Notes": "Download is resolved from Microsoft release metadata so it follows the current servicing release."
+    },
+    {
+      "Id": "vsredist",
+      "Name": "VSRedist",
+      "Description": "Install Microsoft Visual C++ runtime libraries for x64 tools.",
+      "Category": "Dependencies",
+      "Kind": "Direct",
+      "Url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+      "SourceUrl": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist"
+    },
+    {
+      "Id": "p1ae-javaw",
+      "Name": "Javaw Scanner",
+      "Description": "Scan running Minecraft Java process memory with P1AE Javaw.",
+      "Category": "Others",
+      "Kind": "GitHub",
+      "Url": "https://github.com/p1aegg/javaw/releases/latest",
+      "SourceUrl": "https://github.com/p1aegg/javaw",
+      "AssetPattern": "^P1AE\\.Javaw\\.exe$",
+      "LaunchPattern": "^P1AE\\.Javaw\\.exe$",
+      "RequiresAdmin": true,
+      "Notes": "P1AE Javaw by p1aegg. Scans active Java process memory; Minecraft must be running. Downloads the publisher Windows executable, with standard UAC for process access."
+    }
+  ]
+}
